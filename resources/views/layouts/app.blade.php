@@ -23,8 +23,8 @@
         </script>
     @endif
 
-    <h1>@yield('title')</h1>
-    <div>
+    <h1 class=" text-3xl text-center my-4 ">@yield('title')</h1>
+    <div class="p-4">
         @yield('content')
     </div>
 
