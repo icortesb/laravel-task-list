@@ -10,7 +10,7 @@
 
 </head>
 
-<body>
+<body class="container mx-auto mt-10 mb-10 max-w-lg bg-gray-100">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     @if (session('success'))
         <script>
@@ -27,6 +27,11 @@
     <div class="p-4">
         @yield('content')
     </div>
+    <footer>
+        <div class="text-center">
+            <p class="text-gray-500 text-sm">Laravel 10 Task List App &copy; {{ date('Y') }}</p>
+        </div>
+    </footer>
 
 </body>
 
